@@ -66,7 +66,7 @@ Git
 
 Steps:
 Clone the repository:
-git clone https://github.com/your-username/RevPlay.git
+git clone https://github.com/indrajap03/RevPlay.git
 
 Configure database:
 Update DB credentials in:
