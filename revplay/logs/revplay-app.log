@@ -1,0 +1,989 @@
+2026-02-08 13:42:59 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 13:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 13:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 13:42:59 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 13:43:02 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 13:43:02 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:43:03 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 7 songs
+2026-02-08 13:43:37 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770538417639@mail.com
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770538417639@mail.com
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=test@mail.com
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=test@mail.com
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 8 songs
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 history records for userId=1
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 6 public playlists
+2026-02-08 13:43:38 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 13:43:39 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 13:44:01 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 13:44:01 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 13:44:01 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 13:44:01 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 13:44:01 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 13:44:01 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 13:44:35 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 13:44:35 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 13:44:35 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 13:44:35 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 13:44:37 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 13:44:37 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:44:37 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 8 songs
+2026-02-08 13:58:17 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 13:58:17 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 13:58:17 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 13:58:17 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 13:58:17 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 13:58:17 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 13:58:17 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770539297436@mail.com
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770539297436@mail.com
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 13:58:18 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=1, songId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 6 history records for userId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 7 public playlists
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 13:58:19 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 14:00:17 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770539417492@mail.com
+2026-02-08 14:00:18 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770539417492@mail.com
+2026-02-08 14:00:18 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 14:00:18 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 14:00:32 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 14:00:32 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 14:00:32 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:00:32 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 14:00:32 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:00:32 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 14:00:32 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770539432077@mail.com
+2026-02-08 14:00:32 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770539432077@mail.com
+2026-02-08 14:00:32 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 14:00:32 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 14:00:32 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=1, songId=1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 14:00:33 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 14:00:34 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 14:00:34 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 7 history records for userId=1
+2026-02-08 14:00:34 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 14:00:34 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 8 public playlists
+2026-02-08 14:00:34 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 14:00:34 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 14:03:46 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 14:03:46 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 14:03:46 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:03:46 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 14:03:46 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:03:46 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 14:03:46 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770539626250@mail.com
+2026-02-08 14:03:46 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770539626250@mail.com
+2026-02-08 14:03:46 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 14:03:47 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 public playlists
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 14:03:48 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 14:15:03 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 14:15:03 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 14:15:04 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 14:15:04 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 14:15:07 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 14:15:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 14:15:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 14:15:12 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=2
+2026-02-08 14:15:12 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=2
+2026-02-08 14:15:12 INFO  com.revplay.service.SongService - Playing songId=2 (Kesariya) for userId=21
+2026-02-08 14:15:12 INFO  com.revplay.dao.impl.SongDaoImpl - Incrementing play count for songId=2
+2026-02-08 14:15:13 INFO  com.revplay.dao.impl.SongDaoImpl - Play count incremented for songId=2
+2026-02-08 14:15:13 INFO  com.revplay.service.HistoryService - Record play requested: userId=21, songId=2
+2026-02-08 14:15:13 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=21, songId=2
+2026-02-08 14:15:13 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=21, songId=2
+2026-02-08 14:15:13 INFO  com.revplay.service.HistoryService - Play history recorded successfully: userId=21, songId=2
+2026-02-08 14:15:16 INFO  com.revplay.service.SongService - Song stopped: songId=2, userId=21
+2026-02-08 14:15:18 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=21
+2026-02-08 14:15:22 INFO  com.revplay.service.PlaylistService - Playlist menu choice=1 selected by userId=21
+2026-02-08 14:15:22 INFO  com.revplay.service.PlaylistService - Create playlist requested by userId=21
+2026-02-08 14:15:44 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'BINGO' for userId=21
+2026-02-08 14:15:44 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'BINGO' created successfully for userId=21
+2026-02-08 14:15:44 INFO  com.revplay.service.PlaylistService - Playlist 'BINGO' created by userId=21
+2026-02-08 14:16:06 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770540366675@mail.com
+2026-02-08 14:16:07 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770540366675@mail.com
+2026-02-08 14:17:43 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770540463313@mail.com
+2026-02-08 14:17:43 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770540463313@mail.com
+2026-02-08 14:18:50 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 14:18:50 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 14:18:51 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:18:51 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 14:18:51 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:18:51 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 14:18:51 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770540531017@mail.com
+2026-02-08 14:18:51 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770540531017@mail.com
+2026-02-08 14:19:43 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 14:19:43 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 14:19:43 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:19:43 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 14:19:43 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:19:43 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 14:19:43 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 14:19:43 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 14:30:58 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 14:30:58 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 14:30:58 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:30:58 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 14:30:58 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 14:30:58 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 14:31:52 INFO  com.revplay.service.PlaylistService - Playlist menu choice=2 selected by userId=21
+2026-02-08 14:31:52 INFO  com.revplay.service.PlaylistService - View playlists requested by userId=21
+2026-02-08 14:31:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=21
+2026-02-08 14:31:53 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 playlists for userId=21
+2026-02-08 14:31:57 INFO  com.revplay.service.PlaylistService - Playlist menu choice=9 selected by userId=21
+2026-02-08 14:31:57 INFO  com.revplay.service.PlaylistService - Exiting playlist menu for userId=21
+2026-02-08 14:31:59 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 14:31:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 14:31:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:17:16 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 11 public playlists
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 playlists for userId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=true for playlistId=1, songId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs for artistId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:17:17 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:17:27 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:17:27 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:17:28 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:17:28 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:17:28 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:17:28 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:18:40 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:18:40 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:18:40 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:18:40 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:18:43 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:18:43 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:18:43 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:20:03 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:20:03 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:20:04 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:20:04 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:20:06 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:20:06 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:20:06 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:21:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 11 public playlists
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 playlists for userId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=true for playlistId=1, songId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:21:03 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:21:03 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:21:03 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:21:03 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:21:03 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:21:03 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs for artistId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:21:03 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:21:36 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:21:36 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:21:37 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:21:37 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:21:40 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:21:40 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:21:40 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:21:45 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=2
+2026-02-08 15:21:45 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=2
+2026-02-08 15:21:45 INFO  com.revplay.service.SongService - Playing songId=2 (Kesariya) for userId=21
+2026-02-08 15:21:45 INFO  com.revplay.dao.impl.SongDaoImpl - Incrementing play count for songId=2
+2026-02-08 15:21:45 INFO  com.revplay.dao.impl.SongDaoImpl - Play count incremented for songId=2
+2026-02-08 15:21:45 INFO  com.revplay.service.HistoryService - Record play requested: userId=21, songId=2
+2026-02-08 15:21:45 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=21, songId=2
+2026-02-08 15:21:45 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=21, songId=2
+2026-02-08 15:21:45 INFO  com.revplay.service.HistoryService - Play history recorded successfully: userId=21, songId=2
+2026-02-08 15:21:49 INFO  com.revplay.service.SongService - Song stopped: songId=2, userId=21
+2026-02-08 15:21:54 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=21
+2026-02-08 15:21:58 INFO  com.revplay.service.PlaylistService - Playlist menu choice=2 selected by userId=21
+2026-02-08 15:21:58 INFO  com.revplay.service.PlaylistService - View playlists requested by userId=21
+2026-02-08 15:21:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=21
+2026-02-08 15:21:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 playlists for userId=21
+2026-02-08 15:22:44 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:22:44 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:22:45 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:22:45 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:22:47 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:22:47 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:22:47 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:25:19 INFO  com.revplay.service.SongService - User cancelled song play (userId=21)
+2026-02-08 15:25:51 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 11 public playlists
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 playlists for userId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=true for playlistId=1, songId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:25:52 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:25:52 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:25:52 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:25:52 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:25:52 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:25:52 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs for artistId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:25:52 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:29:10 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:29:10 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:29:10 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:29:10 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:29:12 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:29:12 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:29:12 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 11 public playlists
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 playlists for userId=1
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=1
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=true for playlistId=1, songId=1
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:30:41 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:30:42 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:30:42 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:30:42 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:30:42 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:30:42 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:30:42 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs for artistId=1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:30:42 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:31:06 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 11 public playlists
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 playlists for userId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=true for playlistId=1, songId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:31:07 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:31:07 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:31:07 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:31:07 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:31:07 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:31:07 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs for artistId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:31:07 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:31:35 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 11 public playlists
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 9 playlists for userId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=true for playlistId=1, songId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:31:36 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:31:36 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:31:36 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:31:36 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:31:36 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:31:36 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 5 recent history records for userId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 8 history records for userId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs for artistId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:31:36 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:37:27 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:37:27 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:37:28 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:37:28 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:37:31 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:37:31 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:37:31 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770545579146@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song 1770545579196', artistId=1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770545579187@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=junit_1770545579218@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770545579146@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=not_exist@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770545579187@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song 1770545579196' added successfully
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=junit_1770545579218@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=not_exist@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=not_exist@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song', artistId=1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=not_exist@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='JUnit Song 1770545579843', artistId=1
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song' added successfully
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'JUnit Song 1770545579843' added successfully
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=nonexistent@mail.com
+2026-02-08 15:42:59 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite added successfully for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 0 recent history records for userId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=true for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=1, songId=1
+2026-02-08 15:43:00 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite added successfully for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 2 recent history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 2 history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 2 recent history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 0 recent history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 0 recent history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 public playlists
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist 1770545581492' for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 public playlists
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist 1770545581492' created successfully for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=1, songId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 3 history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 3 history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 3 history records for userId=1
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:43:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 5 public playlists
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 5 public playlists
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 5 public playlists
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'JUnit Playlist' for userId=1
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 15:43:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'JUnit Playlist' created successfully for userId=1
+2026-02-08 15:45:06 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 public playlists
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 playlists for userId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=1 owned by userId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 0 songs for playlistId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=1 exists in playlistId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=false for playlistId=1, songId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums for artistId 1
+2026-02-08 15:45:07 INFO  com.revplay.service.AuthService - Register attempt for email=null
+2026-02-08 15:45:07 ERROR com.revplay.service.AuthService - Registration failed: Email is empty
+2026-02-08 15:45:07 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:45:07 ERROR com.revplay.service.AuthService - Registration failed: Invalid role=ADMIN
+2026-02-08 15:45:07 INFO  com.revplay.service.AuthService - Register attempt for email=test@mail.com
+2026-02-08 15:45:07 ERROR com.revplay.service.AuthService - Registration failed: Password is empty
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=1, limit=5
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 3 recent history records for userId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 3 history records for userId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs for artistId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-08 15:45:07 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-08 15:45:32 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 15:45:32 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 15:45:32 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 15:45:32 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 15:45:34 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 15:45:34 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:45:34 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:45:41 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=2
+2026-02-08 15:45:41 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=2
+2026-02-08 15:45:41 INFO  com.revplay.service.SongService - Playing songId=2 (Kesariya) for userId=21
+2026-02-08 15:45:41 INFO  com.revplay.dao.impl.SongDaoImpl - Incrementing play count for songId=2
+2026-02-08 15:45:41 INFO  com.revplay.dao.impl.SongDaoImpl - Play count incremented for songId=2
+2026-02-08 15:45:41 INFO  com.revplay.service.HistoryService - Record play requested: userId=21, songId=2
+2026-02-08 15:45:41 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=21, songId=2
+2026-02-08 15:45:41 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=21, songId=2
+2026-02-08 15:45:41 INFO  com.revplay.service.HistoryService - Play history recorded successfully: userId=21, songId=2
+2026-02-08 15:45:43 INFO  com.revplay.service.SongService - Song stopped: songId=2, userId=21
+2026-02-08 15:45:45 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=21
+2026-02-08 15:45:48 INFO  com.revplay.service.PlaylistService - Playlist menu choice=3 selected by userId=21
+2026-02-08 15:45:55 INFO  com.revplay.service.PlaylistService - View songs requested for playlistId=2 by userId=21
+2026-02-08 15:45:55 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=2 owned by userId=21
+2026-02-08 15:45:56 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 0 songs for playlistId=2
+2026-02-08 15:45:56 INFO  com.revplay.service.PlaylistService - No songs found in playlistId=2 for userId=21
+2026-02-08 15:46:06 INFO  com.revplay.service.PlaylistService - Playlist menu choice=2 selected by userId=21
+2026-02-08 15:46:06 INFO  com.revplay.service.PlaylistService - View playlists requested by userId=21
+2026-02-08 15:46:06 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=21
+2026-02-08 15:46:06 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 playlists for userId=21
+2026-02-08 15:51:11 INFO  com.revplay.service.PlaylistService - Playlist menu choice=9 selected by userId=21
+2026-02-08 15:51:11 INFO  com.revplay.service.PlaylistService - Exiting playlist menu for userId=21
+2026-02-08 15:51:27 INFO  com.revplay.service.AuthService - Login attempt for email=artist2@gmail.com
+2026-02-08 15:51:27 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=artist2@gmail.com
+2026-02-08 15:51:27 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=artist2@gmail.com
+2026-02-08 15:51:27 INFO  com.revplay.service.AuthService - Login success=true for email=artist2@gmail.com
+2026-02-08 15:51:30 INFO  com.revplay.service.ArtistService - Manage artist profile requested for userId=22
+2026-02-08 15:51:30 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-08 15:51:30 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 22
+2026-02-08 15:51:30 INFO  com.revplay.service.ArtistService - No existing artist profile found. Creating new profile for userId=22
+2026-02-08 15:51:38 INFO  com.revplay.dao.impl.ArtistDaoImpl - Creating artist profile for userId: 22
+2026-02-08 15:51:43 INFO  com.revplay.service.ArtistService - View songs requested for artist userId=22
+2026-02-08 15:51:43 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=22
+2026-02-08 15:51:43 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 0 songs for artistId=22
+2026-02-08 15:51:43 INFO  com.revplay.service.ArtistService - No songs found for artist userId=22
+2026-02-08 15:51:53 INFO  com.revplay.service.ArtistService - Add song to album requested by userId=22
+2026-02-08 15:51:59 INFO  com.revplay.dao.impl.AlbumDaoImpl - Adding songId 4 to albumId 5
+2026-02-08 15:51:59 INFO  com.revplay.dao.impl.AlbumDaoImpl - Song 4 added to album 5
+2026-02-08 15:51:59 INFO  com.revplay.service.ArtistService - SongId=4 added to albumId=5 by userId=22
+2026-02-08 15:52:10 INFO  com.revplay.service.ArtistService - View albums requested by userId=22
+2026-02-08 15:52:10 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching albums for artistId: 22
+2026-02-08 15:52:10 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 0 albums for artistId 22
+2026-02-08 15:52:10 INFO  com.revplay.service.ArtistService - No albums found for userId=22
+2026-02-08 15:52:29 INFO  com.revplay.service.SearchService - Search started with keyword='hum'
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 3 songs
+2026-02-08 15:52:29 INFO  com.revplay.service.SearchService - Song match found: Humsafar
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 1 artist profiles
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-08 15:52:29 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 3 public playlists
+2026-02-08 15:52:29 INFO  com.revplay.service.SearchService - Search completed for keyword='hum'
+2026-02-08 15:52:58 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-08 15:53:05 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='BOLNA', artistId=22
+2026-02-08 15:55:21 INFO  com.revplay.service.ArtistService - Add song to album requested by userId=22
+2026-02-08 15:55:25 INFO  com.revplay.dao.impl.AlbumDaoImpl - Adding songId 2 to albumId 1
+2026-02-08 15:55:25 INFO  com.revplay.dao.impl.AlbumDaoImpl - Song 2 added to album 1
+2026-02-08 15:55:25 INFO  com.revplay.service.ArtistService - SongId=2 added to albumId=1 by userId=22
+2026-02-08 15:55:33 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-08 15:55:37 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='bolna', artistId=22
+2026-02-08 16:16:57 INFO  com.revplay.service.AuthService - Login attempt for email=artist2@gmail.com
+2026-02-08 16:16:57 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=artist2@gmail.com
+2026-02-08 16:16:57 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=artist2@gmail.com
+2026-02-08 16:16:57 INFO  com.revplay.service.AuthService - Login success=true for email=artist2@gmail.com
+2026-02-08 16:17:01 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-08 16:17:01 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-08 16:17:01 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 22
+2026-02-08 16:19:01 INFO  com.revplay.service.ArtistService - Manage artist profile requested for userId=22
+2026-02-08 16:19:01 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-08 16:19:01 INFO  com.revplay.dao.impl.ArtistDaoImpl - No artist profile found for userId: 22
+2026-02-08 16:19:01 INFO  com.revplay.service.ArtistService - No existing artist profile found. Creating new profile for userId=22
+2026-02-08 16:20:18 INFO  com.revplay.dao.impl.ArtistDaoImpl - Creating artist profile for userId: 22
+2026-02-08 16:20:19 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile created successfully for userId: 22
+2026-02-08 16:20:19 INFO  com.revplay.service.ArtistService - Artist profile created successfully for userId=22
+2026-02-08 16:20:21 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-08 16:20:21 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-08 16:20:21 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-08 16:20:26 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='Bolna', artistId=42
+2026-02-08 16:23:30 INFO  com.revplay.service.AuthService - Login attempt for email=artist2@gmail.com
+2026-02-08 16:23:30 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=artist2@gmail.com
+2026-02-08 16:23:30 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=artist2@gmail.com
+2026-02-08 16:23:30 INFO  com.revplay.service.AuthService - Login success=true for email=artist2@gmail.com
+2026-02-08 16:23:34 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-08 16:23:34 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-08 16:23:34 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-08 16:23:46 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='bolna', artistId=42
+2026-02-08 16:23:46 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'bolna' added successfully
+2026-02-08 16:23:46 INFO  com.revplay.service.ArtistService - Song 'bolna' uploaded by artistId=42
+2026-02-08 16:23:53 INFO  com.revplay.service.ArtistService - View songs requested for artist userId=22
+2026-02-08 16:23:53 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=22
+2026-02-08 16:23:53 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 0 songs for artistId=22
+2026-02-08 16:23:53 INFO  com.revplay.service.ArtistService - No songs found for artist userId=22
+2026-02-08 16:26:19 INFO  com.revplay.service.AuthService - Login attempt for email=artist2@gmail.com
+2026-02-08 16:26:19 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=artist2@gmail.com
+2026-02-08 16:26:19 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=artist2@gmail.com
+2026-02-08 16:26:19 INFO  com.revplay.service.AuthService - Login success=true for email=artist2@gmail.com
+2026-02-08 16:26:24 INFO  com.revplay.service.ArtistService - View songs requested for userId=22
+2026-02-08 16:26:24 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-08 16:26:25 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-08 16:26:25 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=42
+2026-02-08 16:26:25 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 1 songs for artistId=42
+2026-02-08 16:26:47 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 16:26:47 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 16:26:47 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 16:26:47 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 16:26:52 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 16:26:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 16:26:52 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 01:46:50 INFO  com.revplay.service.AuthService - Register attempt for email=indu@gmail.com
+2026-02-09 01:46:50 INFO  com.revplay.dao.impl.UserDaoImpl - Saving new user with email=indu@gmail.com
+2026-02-09 01:46:50 INFO  com.revplay.dao.impl.UserDaoImpl - User saved successfully with email=indu@gmail.com
+2026-02-09 01:46:50 INFO  com.revplay.service.AuthService - Registration successful for email=indu@gmail.com
+2026-02-09 01:47:03 INFO  com.revplay.service.AuthService - Login attempt for email=indu@gmail.com
+2026-02-09 01:47:03 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=indu@gmail.com
+2026-02-09 01:47:03 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=indu@gmail.com
+2026-02-09 01:47:03 INFO  com.revplay.service.AuthService - Login success=true for email=indu@gmail.com
+2026-02-09 01:47:07 INFO  com.revplay.service.SongService - Show all songs requested by userId=38
+2026-02-09 01:47:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-09 01:47:07 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 01:47:11 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=2
+2026-02-09 01:47:11 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=2
+2026-02-09 01:47:11 INFO  com.revplay.service.SongService - Playing songId=2 (Kesariya) for userId=38
+2026-02-09 01:47:11 INFO  com.revplay.dao.impl.SongDaoImpl - Incrementing play count for songId=2
+2026-02-09 01:47:11 INFO  com.revplay.dao.impl.SongDaoImpl - Play count incremented for songId=2
+2026-02-09 01:47:11 INFO  com.revplay.service.HistoryService - Record play requested: userId=38, songId=2
+2026-02-09 01:47:11 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=38, songId=2
+2026-02-09 01:47:11 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=38, songId=2
+2026-02-09 01:47:11 INFO  com.revplay.service.HistoryService - Play history recorded successfully: userId=38, songId=2
+2026-02-09 01:47:17 INFO  com.revplay.service.SongService - Song paused: songId=2, userId=38
+2026-02-09 01:47:19 INFO  com.revplay.service.SongService - Song skipped: songId=2, userId=38
+2026-02-09 01:47:23 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=38
+2026-02-09 01:47:26 INFO  com.revplay.service.PlaylistService - Playlist menu choice=1 selected by userId=38
+2026-02-09 01:47:26 INFO  com.revplay.service.PlaylistService - Create playlist requested by userId=38
+2026-02-09 01:47:49 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'cool' for userId=38
+2026-02-09 01:47:50 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'cool' created successfully for userId=38
+2026-02-09 01:47:50 INFO  com.revplay.service.PlaylistService - Playlist 'cool' created by userId=38
+2026-02-09 01:47:53 INFO  com.revplay.service.PlaylistService - Playlist menu choice=2 selected by userId=38
+2026-02-09 01:47:53 INFO  com.revplay.service.PlaylistService - View playlists requested by userId=38
+2026-02-09 01:47:53 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=38
+2026-02-09 01:47:53 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 playlists for userId=38
+2026-02-09 01:47:57 INFO  com.revplay.service.PlaylistService - Playlist menu choice=3 selected by userId=38
+2026-02-09 01:48:00 INFO  com.revplay.service.PlaylistService - View songs requested for playlistId=59 by userId=38
+2026-02-09 01:48:00 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=59 owned by userId=38
+2026-02-09 01:48:00 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 0 songs for playlistId=59
+2026-02-09 01:48:00 INFO  com.revplay.service.PlaylistService - No songs found in playlistId=59 for userId=38
+2026-02-09 01:48:05 INFO  com.revplay.service.PlaylistService - Playlist menu choice=4 selected by userId=38
+2026-02-09 01:48:12 INFO  com.revplay.service.PlaylistService - Add song requested: songId=3 to playlistId=59 by userId=38
+2026-02-09 01:48:12 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=3 exists in playlistId=59
+2026-02-09 01:48:12 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=false for playlistId=59, songId=3
+2026-02-09 01:48:12 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Adding songId=3 to playlistId=59
+2026-02-09 01:48:32 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=38
+2026-02-09 01:48:36 INFO  com.revplay.service.PlaylistService - Playlist menu choice=4 selected by userId=38
+2026-02-09 01:48:42 INFO  com.revplay.service.PlaylistService - Add song requested: songId=2 to playlistId=59 by userId=38
+2026-02-09 01:48:42 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=2 exists in playlistId=59
+2026-02-09 01:48:42 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=false for playlistId=59, songId=2
+2026-02-09 01:48:42 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Adding songId=2 to playlistId=59
+2026-02-09 01:48:42 INFO  com.revplay.dao.impl.PlaylistDaoImpl - SongId=2 added to playlistId=59
+2026-02-09 01:48:42 INFO  com.revplay.service.PlaylistService - SongId=2 added to playlistId=59
+2026-02-09 01:48:56 INFO  com.revplay.service.PlaylistService - Playlist menu choice=5 selected by userId=38
+2026-02-09 01:49:01 INFO  com.revplay.service.PlaylistService - Remove song requested: songId=2 from playlistId=59 by userId=38
+2026-02-09 01:49:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Removing songId=2 from playlistId=59
+2026-02-09 01:49:01 INFO  com.revplay.dao.impl.PlaylistDaoImpl - SongId=2 removed from playlistId=59
+2026-02-09 01:49:01 INFO  com.revplay.service.PlaylistService - SongId=2 removed from playlistId=59
+2026-02-09 01:49:05 INFO  com.revplay.service.PlaylistService - Playlist menu choice=3 selected by userId=38
+2026-02-09 01:49:07 INFO  com.revplay.service.PlaylistService - View songs requested for playlistId=59 by userId=38
+2026-02-09 01:49:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=59 owned by userId=38
+2026-02-09 01:49:07 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 0 songs for playlistId=59
+2026-02-09 01:49:07 INFO  com.revplay.service.PlaylistService - No songs found in playlistId=59 for userId=38
+2026-02-09 01:49:14 INFO  com.revplay.service.PlaylistService - Playlist menu choice=9 selected by userId=38
+2026-02-09 01:49:14 INFO  com.revplay.service.PlaylistService - Exiting playlist menu for userId=38
+2026-02-09 01:49:20 INFO  com.revplay.service.FavoriteService - Add favorite requested: userId=38, songId=2
+2026-02-09 01:49:20 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=38, songId=2
+2026-02-09 01:49:20 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=38, songId=2
+2026-02-09 01:49:20 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=38, songId=2
+2026-02-09 01:49:20 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite added successfully for userId=38, songId=2
+2026-02-09 01:49:20 INFO  com.revplay.service.FavoriteService - Song added to favorites successfully: userId=38, songId=2
+2026-02-09 01:49:29 INFO  com.revplay.service.FavoriteService - View favorites requested: userId=38
+2026-02-09 01:49:29 INFO  com.revplay.service.FavoriteService - Favorites displayed successfully for userId=38
+2026-02-09 01:49:36 INFO  com.revplay.service.FavoriteService - Remove favorite requested: userId=38, songId=2
+2026-02-09 01:49:36 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Removing favorite: userId=38, songId=2
+2026-02-09 01:49:36 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite removed successfully for userId=38, songId=2
+2026-02-09 01:49:36 INFO  com.revplay.service.FavoriteService - Song removed from favorites successfully: userId=38, songId=2
+2026-02-09 01:49:38 INFO  com.revplay.service.FavoriteService - View favorites requested: userId=38
+2026-02-09 01:49:38 INFO  com.revplay.service.FavoriteService - No favorite songs found for userId=38
+2026-02-09 01:49:49 INFO  com.revplay.service.SearchService - Search started with keyword='kes'
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 01:49:49 INFO  com.revplay.service.SearchService - Song match found: Kesariya
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 2 artist profiles
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-09 01:49:49 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 4 public playlists
+2026-02-09 01:49:49 INFO  com.revplay.service.SearchService - Search completed for keyword='kes'
+2026-02-09 01:49:58 INFO  com.revplay.service.BrowseService - Browse by genre started
+2026-02-09 01:49:58 INFO  com.revplay.service.BrowseService - Browsing genre: Jazz
+2026-02-09 01:49:58 INFO  com.revplay.service.BrowseService - Browsing genre: Pop
+2026-02-09 01:49:58 INFO  com.revplay.service.BrowseService - Browsing genre: Rock
+2026-02-09 01:49:58 INFO  com.revplay.service.BrowseService - Browse by genre completed
+2026-02-09 01:50:09 INFO  com.revplay.service.HistoryService - Show full listening history requested: userId=38
+2026-02-09 01:50:09 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching listening history for userId=38
+2026-02-09 01:50:09 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 1 history records for userId=38
+2026-02-09 01:50:09 INFO  com.revplay.service.HistoryService - Displaying 1 history records for userId=38
+2026-02-09 01:50:14 INFO  com.revplay.service.HistoryService - Show recently played requested: userId=38
+2026-02-09 01:50:14 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=38, limit=5
+2026-02-09 01:50:14 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 1 recent history records for userId=38
+2026-02-09 01:50:14 INFO  com.revplay.service.HistoryService - Displaying 1 recently played songs for userId=38
+2026-02-09 01:50:39 INFO  com.revplay.service.AuthService - Login attempt for email=artist2@gmail.com
+2026-02-09 01:50:39 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=artist2@gmail.com
+2026-02-09 01:50:39 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=artist2@gmail.com
+2026-02-09 01:50:39 INFO  com.revplay.service.AuthService - Login success=true for email=artist2@gmail.com
+2026-02-09 01:50:46 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-09 01:50:46 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-09 01:50:46 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-09 01:51:11 INFO  com.revplay.service.ArtistService - Upload song requested by userId=22
+2026-02-09 01:51:11 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-09 01:51:11 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-09 01:51:23 INFO  com.revplay.dao.impl.SongDaoImpl - Adding song: title='janam', artistId=42
+2026-02-09 01:51:23 INFO  com.revplay.dao.impl.SongDaoImpl - Song 'janam' added successfully
+2026-02-09 01:51:23 INFO  com.revplay.service.ArtistService - Song 'janam' uploaded by artistId=42
+2026-02-09 01:51:26 INFO  com.revplay.service.ArtistService - View songs requested for userId=22
+2026-02-09 01:51:26 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-09 01:51:27 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-09 01:51:27 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=42
+2026-02-09 01:51:27 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 2 songs for artistId=42
+2026-02-09 01:51:37 INFO  com.revplay.service.ArtistService - Delete song requested by userId=22
+2026-02-09 01:51:44 INFO  com.revplay.dao.impl.SongDaoImpl - Deleting songId=61
+2026-02-09 01:51:44 INFO  com.revplay.dao.impl.SongDaoImpl - SongId=61 deleted successfully
+2026-02-09 01:51:44 INFO  com.revplay.service.ArtistService - SongId=61 deleted by userId=22
+2026-02-09 01:51:48 INFO  com.revplay.service.ArtistService - View songs requested for userId=22
+2026-02-09 01:51:48 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching artist profile for userId: 22
+2026-02-09 01:51:48 INFO  com.revplay.dao.impl.ArtistDaoImpl - Artist profile found for userId: 22
+2026-02-09 01:51:48 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching songs for artistId=42
+2026-02-09 01:51:48 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 1 songs for artistId=42
+2026-02-09 01:51:58 INFO  com.revplay.service.SearchService - Search started with keyword='kes'
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 01:51:58 INFO  com.revplay.service.SearchService - Song match found: Kesariya
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 2 artist profiles
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-09 01:51:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 4 public playlists
+2026-02-09 01:51:58 INFO  com.revplay.service.SearchService - Search completed for keyword='kes'
+2026-02-09 01:52:17 INFO  com.revplay.service.AuthService - Fetching user by email=artist2@gmail.com
+2026-02-09 01:52:17 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=artist2@gmail.com
+2026-02-09 01:52:17 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=artist2@gmail.com
+2026-02-09 01:52:17 INFO  com.revplay.service.AuthService - User found=true for email=artist2@gmail.com
+2026-02-09 01:52:23 INFO  com.revplay.service.AuthService - Change password requested for userId=22
+2026-02-09 01:52:23 INFO  com.revplay.dao.impl.UserDaoImpl - Updating password for userId=22
+2026-02-09 01:52:23 INFO  com.revplay.dao.impl.UserDaoImpl - Password updated successfully for userId=22
+2026-02-09 01:52:23 INFO  com.revplay.service.AuthService - Password changed successfully for userId=22
+2026-02-09 15:54:28 INFO  com.revplay.service.AuthService - Login attempt for email=test1@gmail.com
+2026-02-09 15:54:28 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=test1@gmail.com
+2026-02-09 15:54:28 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=test1@gmail.com
+2026-02-09 15:54:28 INFO  com.revplay.service.AuthService - Login success=true for email=test1@gmail.com
+2026-02-09 15:54:31 INFO  com.revplay.service.SongService - Show all songs requested by userId=3
+2026-02-09 15:54:31 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-09 15:54:32 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 15:54:40 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching song by songId=1
+2026-02-09 15:54:40 INFO  com.revplay.dao.impl.SongDaoImpl - Song found=true for songId=1
+2026-02-09 15:54:40 INFO  com.revplay.service.SongService - Playing songId=1 (Perfect) for userId=3
+2026-02-09 15:54:40 INFO  com.revplay.dao.impl.SongDaoImpl - Incrementing play count for songId=1
+2026-02-09 15:54:40 INFO  com.revplay.dao.impl.SongDaoImpl - Play count incremented for songId=1
+2026-02-09 15:54:40 INFO  com.revplay.service.HistoryService - Record play requested: userId=3, songId=1
+2026-02-09 15:54:40 INFO  com.revplay.dao.impl.HistoryDaoImpl - Adding listening history: userId=3, songId=1
+2026-02-09 15:54:40 INFO  com.revplay.dao.impl.HistoryDaoImpl - Listening history added successfully for userId=3, songId=1
+2026-02-09 15:54:40 INFO  com.revplay.service.HistoryService - Play history recorded successfully: userId=3, songId=1
+2026-02-09 15:54:49 INFO  com.revplay.service.SongService - Song replayed: songId=1, userId=3
+2026-02-09 15:54:55 INFO  com.revplay.service.SongService - Song stopped: songId=1, userId=3
+2026-02-09 15:55:01 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=3
+2026-02-09 15:55:06 INFO  com.revplay.service.PlaylistService - Playlist menu choice=2 selected by userId=3
+2026-02-09 15:55:06 INFO  com.revplay.service.PlaylistService - View playlists requested by userId=3
+2026-02-09 15:55:06 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=3
+2026-02-09 15:55:06 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 0 playlists for userId=3
+2026-02-09 15:55:19 INFO  com.revplay.service.PlaylistService - Playlist menu choice=1 selected by userId=3
+2026-02-09 15:55:19 INFO  com.revplay.service.PlaylistService - Create playlist requested by userId=3
+2026-02-09 15:55:31 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Creating playlist 'rer' for userId=3
+2026-02-09 15:55:31 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Playlist 'rer' created successfully for userId=3
+2026-02-09 15:55:31 INFO  com.revplay.service.PlaylistService - Playlist 'rer' created by userId=3
+2026-02-09 15:55:34 INFO  com.revplay.service.PlaylistService - Playlist menu choice=2 selected by userId=3
+2026-02-09 15:55:34 INFO  com.revplay.service.PlaylistService - View playlists requested by userId=3
+2026-02-09 15:55:34 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching playlists for userId=3
+2026-02-09 15:55:34 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 playlists for userId=3
+2026-02-09 15:55:41 INFO  com.revplay.service.PlaylistService - Playlist menu choice=3 selected by userId=3
+2026-02-09 15:55:45 INFO  com.revplay.service.PlaylistService - View songs requested for playlistId=60 by userId=3
+2026-02-09 15:55:45 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=60 owned by userId=3
+2026-02-09 15:55:45 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 0 songs for playlistId=60
+2026-02-09 15:55:45 INFO  com.revplay.service.PlaylistService - No songs found in playlistId=60 for userId=3
+2026-02-09 15:55:52 INFO  com.revplay.service.PlaylistService - Playlist menu choice=4 selected by userId=3
+2026-02-09 15:55:58 INFO  com.revplay.service.PlaylistService - Add song requested: songId=2 to playlistId=60 by userId=3
+2026-02-09 15:55:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Checking if songId=2 exists in playlistId=60
+2026-02-09 15:55:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Song exists=false for playlistId=60, songId=2
+2026-02-09 15:55:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Adding songId=2 to playlistId=60
+2026-02-09 15:55:58 INFO  com.revplay.dao.impl.PlaylistDaoImpl - SongId=2 added to playlistId=60
+2026-02-09 15:55:58 INFO  com.revplay.service.PlaylistService - SongId=2 added to playlistId=60
+2026-02-09 15:56:05 INFO  com.revplay.service.PlaylistService - Playlist menu choice=3 selected by userId=3
+2026-02-09 15:56:08 INFO  com.revplay.service.PlaylistService - View songs requested for playlistId=60 by userId=3
+2026-02-09 15:56:08 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching songs for playlistId=60 owned by userId=3
+2026-02-09 15:56:08 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 1 songs for playlistId=60
+2026-02-09 15:56:15 INFO  com.revplay.service.PlaylistService - Playlist menu choice=5 selected by userId=3
+2026-02-09 15:56:19 INFO  com.revplay.service.PlaylistService - Remove song requested: songId=2 from playlistId=60 by userId=3
+2026-02-09 15:56:19 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Removing songId=2 from playlistId=60
+2026-02-09 15:56:20 INFO  com.revplay.dao.impl.PlaylistDaoImpl - SongId=2 removed from playlistId=60
+2026-02-09 15:56:20 INFO  com.revplay.service.PlaylistService - SongId=2 removed from playlistId=60
+2026-02-09 15:56:26 INFO  com.revplay.service.PlaylistService - Playlist menu choice=8 selected by userId=3
+2026-02-09 15:56:26 INFO  com.revplay.service.PlaylistService - View public playlists requested
+2026-02-09 15:56:26 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-09 15:56:26 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 5 public playlists
+2026-02-09 15:56:38 INFO  com.revplay.service.PlaylistService - Playlist menu choice=9 selected by userId=3
+2026-02-09 15:56:38 INFO  com.revplay.service.PlaylistService - Exiting playlist menu for userId=3
+2026-02-09 15:56:49 INFO  com.revplay.service.FavoriteService - Add favorite requested: userId=3, songId=2
+2026-02-09 15:56:49 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Checking favorite status: userId=3, songId=2
+2026-02-09 15:56:49 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite exists=false for userId=3, songId=2
+2026-02-09 15:56:49 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Adding favorite: userId=3, songId=2
+2026-02-09 15:56:49 INFO  com.revplay.dao.impl.FavoriteDaoImpl - Favorite added successfully for userId=3, songId=2
+2026-02-09 15:56:49 INFO  com.revplay.service.FavoriteService - Song added to favorites successfully: userId=3, songId=2
+2026-02-09 15:56:54 INFO  com.revplay.service.FavoriteService - View favorites requested: userId=3
+2026-02-09 15:56:54 INFO  com.revplay.service.FavoriteService - Favorites displayed successfully for userId=3
+2026-02-09 15:57:02 INFO  com.revplay.service.SearchService - Search started with keyword='k'
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 15:57:02 INFO  com.revplay.service.SearchService - Song match found: Kesariya
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 2 artist profiles
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-09 15:57:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 5 public playlists
+2026-02-09 15:57:02 INFO  com.revplay.service.SearchService - Search completed for keyword='k'
+2026-02-09 15:58:02 INFO  com.revplay.service.SearchService - Search started with keyword='ari'
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 4 songs
+2026-02-09 15:58:02 INFO  com.revplay.service.SearchService - Song match found: Kesariya
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetching all artist profiles
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.ArtistDaoImpl - Fetched 2 artist profiles
+2026-02-09 15:58:02 INFO  com.revplay.service.SearchService - Artist match found: Arijit Singh
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetching all albums
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.AlbumDaoImpl - Fetched 2 albums
+2026-02-09 15:58:02 INFO  com.revplay.service.SearchService - Album match found: Best of Arijit
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetching public playlists
+2026-02-09 15:58:02 INFO  com.revplay.dao.impl.PlaylistDaoImpl - Fetched 5 public playlists
+2026-02-09 15:58:02 INFO  com.revplay.service.SearchService - Search completed for keyword='ari'
+2026-02-09 15:58:17 INFO  com.revplay.service.HistoryService - Show recently played requested: userId=3
+2026-02-09 15:58:17 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetching recent listening history for userId=3, limit=5
+2026-02-09 15:58:17 INFO  com.revplay.dao.impl.HistoryDaoImpl - Fetched 1 recent history records for userId=3
+2026-02-09 15:58:17 INFO  com.revplay.service.HistoryService - Displaying 1 recently played songs for userId=3
+2026-02-09 15:58:39 INFO  com.revplay.service.AuthService - Change password requested for userId=3
+2026-02-09 15:58:39 INFO  com.revplay.dao.impl.UserDaoImpl - Updating password for userId=3
+2026-02-09 15:58:52 INFO  com.revplay.service.AuthService - Fetching user by email=test1@gmail.com
+2026-02-09 15:58:52 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email=test1@gmail.com
+2026-02-09 15:58:52 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=test1@gmail.com
+2026-02-09 15:58:52 INFO  com.revplay.service.AuthService - User found=true for email=test1@gmail.com
+2026-02-09 15:59:19 INFO  com.revplay.service.AuthService - Change password requested for userId=3
+2026-02-09 15:59:19 INFO  com.revplay.dao.impl.UserDaoImpl - Updating password for userId=3
+2026-02-09 15:59:19 INFO  com.revplay.dao.impl.UserDaoImpl - Password updated successfully for userId=3
+2026-02-09 15:59:19 INFO  com.revplay.service.AuthService - Password changed successfully for userId=3

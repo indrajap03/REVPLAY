@@ -1,0 +1,30 @@
+2026-02-08 13:23:46 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 13:23:46 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 13:23:47 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 13:23:47 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 13:24:20 INFO  com.revplay.service.PlaylistService - Playlist menu opened for userId=21
+2026-02-08 13:28:07 [main] INFO  com.revplay.service.AuthService - Login attempt for email=Asi@gmail.com
+2026-02-08 13:28:07 [main] INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=Asi@gmail.com
+2026-02-08 13:28:08 [main] INFO  com.revplay.dao.impl.UserDaoImpl - User found=false for email=Asi@gmail.com
+2026-02-08 13:28:08 [main] INFO  com.revplay.service.AuthService - Login success=false for email=Asi@gmail.com
+2026-02-08 13:28:20 [main] INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 13:28:20 [main] INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 13:28:20 [main] INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 13:28:20 [main] INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 13:28:28 [main] INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 13:28:28 [main] INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:28:28 [main] INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 7 songs
+2026-02-08 13:32:11 [main] INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 13:32:11 [main] INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 13:32:12 [main] INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 13:32:12 [main] INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 13:32:15 [main] INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 13:32:15 [main] INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:32:15 [main] INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 7 songs
+2026-02-08 13:35:38 INFO  com.revplay.service.AuthService - Login attempt for email=asi@gmail.com
+2026-02-08 13:35:38 INFO  com.revplay.dao.impl.UserDaoImpl - Finding user by email and password for email=asi@gmail.com
+2026-02-08 13:35:39 INFO  com.revplay.dao.impl.UserDaoImpl - User found=true for email=asi@gmail.com
+2026-02-08 13:35:39 INFO  com.revplay.service.AuthService - Login success=true for email=asi@gmail.com
+2026-02-08 13:35:42 INFO  com.revplay.service.SongService - Show all songs requested by userId=21
+2026-02-08 13:35:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetching all songs
+2026-02-08 13:35:42 INFO  com.revplay.dao.impl.SongDaoImpl - Fetched 7 songs

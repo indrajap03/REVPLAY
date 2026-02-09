@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <Property name="LOG_FILE">logs/revplay-app.log</Property>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss} %-5level %c - %msg%n
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <!-- FILE ONLY -->
+        <File name="FileLogger"
+              fileName="${LOG_FILE}"
+              append="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- ROOT → FILE ONLY -->
+        <Root level="info">
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

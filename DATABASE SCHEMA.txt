@@ -1,0 +1,126 @@
+🔹 USERS
+CREATE TABLE indraja_users (
+    user_id        NUMBER PRIMARY KEY,
+    email          VARCHAR2(200 BYTE) NOT NULL,
+    password       VARCHAR2(200 BYTE) NOT NULL,
+    role           VARCHAR2(20 BYTE),
+    password_hint  VARCHAR2(200 BYTE),
+    created_at     DATE DEFAULT SYSDATE,
+
+
+    CONSTRAINT users_email_un UNIQUE (email)
+);
+🔹 ARTIST PROFILE
+CREATE TABLE indraja_artist_profile (
+    artist_id      NUMBER PRIMARY KEY,
+    user_id        NUMBER NOT NULL,
+    artist_name    VARCHAR2(100 BYTE) NOT NULL,
+    bio            VARCHAR2(300 BYTE),
+    primary_genre  VARCHAR2(50 BYTE),
+    social_links   VARCHAR2(200 BYTE),
+
+
+    CONSTRAINT artist_profile_user_un UNIQUE (user_id),
+    CONSTRAINT fk_artist_user FOREIGN KEY (user_id)
+        REFERENCES indraja_users(user_id)
+);
+🔹 GENRES
+CREATE TABLE indraja_genres (
+    genre_id    NUMBER PRIMARY KEY,
+    genre_name  VARCHAR2(50 BYTE) NOT NULL,
+
+
+    CONSTRAINT genres_genre_name_un UNIQUE (genre_name)
+);
+🔹 ALBUMS
+CREATE TABLE indraja_albums (
+    album_id     NUMBER PRIMARY KEY,
+    artist_id    NUMBER NOT NULL,
+    album_title  VARCHAR2(100 BYTE) NOT NULL,
+    release_date DATE,
+
+
+    CONSTRAINT fk_album_artist FOREIGN KEY (artist_id)
+        REFERENCES indraja_artist_profile(artist_id)
+);
+🔹 SONGS
+CREATE TABLE indraja_songs (
+    song_id        NUMBER PRIMARY KEY,
+    title          VARCHAR2(100 BYTE) NOT NULL,
+    album_id       NUMBER,
+    genre_id       NUMBER,
+    artist_id      NUMBER NOT NULL,
+    duration       NUMBER,
+    play_count     NUMBER DEFAULT 0,
+
+
+    CONSTRAINT fk_song_album FOREIGN KEY (album_id)
+        REFERENCES indraja_albums(album_id),
+
+
+    CONSTRAINT fk_song_genre FOREIGN KEY (genre_id)
+        REFERENCES indraja_genres(genre_id),
+
+
+    CONSTRAINT fk_song_artist FOREIGN KEY (artist_id)
+        REFERENCES indraja_artist_profile(artist_id)
+);
+🔹 PLAYLISTS
+CREATE TABLE indraja_playlists (
+    playlist_id  NUMBER PRIMARY KEY,
+    user_id      NUMBER NOT NULL,
+    name         VARCHAR2(100 BYTE) NOT NULL,
+    description  VARCHAR2(300 BYTE),
+    is_public    CHAR(1),
+
+
+    CONSTRAINT fk_playlists_user FOREIGN KEY (user_id)
+        REFERENCES indraja_users(user_id)
+);
+🔹 PLAYLIST SONGS (MANY-TO-MANY)
+CREATE TABLE indraja_playlist_songs (
+    playlist_id  NUMBER,
+    song_id      NUMBER,
+
+
+    CONSTRAINT pk_playlist_songs PRIMARY KEY (playlist_id, song_id),
+
+
+    CONSTRAINT fk_ps_playlist FOREIGN KEY (playlist_id)
+        REFERENCES indraja_playlists(playlist_id),
+
+
+    CONSTRAINT fk_ps_song FOREIGN KEY (song_id)
+        REFERENCES indraja_songs(song_id)
+);
+🔹 FAVORITES (USER ↔ SONG)
+CREATE TABLE indraja_favorites (
+    user_id  NUMBER,
+    song_id  NUMBER,
+
+
+    CONSTRAINT pk_favorites PRIMARY KEY (user_id, song_id),
+
+
+    CONSTRAINT fk_fav_user FOREIGN KEY (user_id)
+        REFERENCES indraja_users(user_id),
+
+
+    CONSTRAINT fk_fav_song FOREIGN KEY (song_id)
+        REFERENCES indraja_songs(song_id)
+);
+🔹 LISTENING HISTORY
+CREATE TABLE indraja_listening_history (
+    history_id  NUMBER PRIMARY KEY,
+    user_id     NUMBER NOT NULL,
+    song_id     NUMBER NOT NULL,
+    played_at   DATE DEFAULT SYSDATE,
+
+
+    CONSTRAINT fk_history_user FOREIGN KEY (user_id)
+        REFERENCES indraja_users(user_id),
+
+
+    CONSTRAINT fk_history_song FOREIGN KEY (song_id)
+        REFERENCES indraja_songs(song_id)
+);
